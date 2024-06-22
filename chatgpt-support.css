@@ -1,0 +1,39 @@
+#chatgpt-support-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0073aa;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#chatgpt-support-window {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #0073aa;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#chatgpt-support-header {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chatgpt-support-body {
+    padding: 10px;
+}
+
+#chatgpt-support-header span {
+    cursor: pointer;
+}
